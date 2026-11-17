@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "filmcraft",
+  "version": "0.1.0",
+  "description": "从网页、产品、录屏与素材制作有叙事、有设计、可验证交付的视频；组合 Video Shotcraft 的创作方法与 MotionHarness 的本地制作能力。",
+  "keywords": [
+    "video",
+    "product-film",
+    "motion-design",
+    "motionharness",
+    "video-shotcraft",
+    "filmcraft",
+    "mcode",
+    "agent-skill"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "影片工坊 Filmcraft",
+        "shortDescription": "从分镜设计到视频成片、配音效与独立审片",
+        "longDescription": "制作产品宣传片、网页演示、MG 动效和短视频。三个可组合的技能分别负责视频创作、音乐音效和成片审查。根据真实产品提取视觉语言，以明确任务连接素材与原创动画，管理运镜、阅读时间、声音和验收证据。引用本机已安装的 Video Shotcraft 与 MotionHarness，不打包第三方工具、音乐、录屏或账户资料。视频制作需要具备本地文件与命令执行能力的环境；这是技能型插件，不提供云端渲染服务器。",
+        "category": "Creativity",
+        "capabilities": [],
+        "logo": "./assets/logo-light.png",
+        "composerIcon": "./assets/logo-light.png",
+        "logoDark": "./assets/logo-dark.png",
+        "composerIconDark": "./assets/logo-dark.png",
+        "brandColor": "#F56811",
+        "brandColorDark": "#F56811",
+        "defaultPrompt": [
+          "根据这个产品页面制作一支60秒宣传片，使用真实素材与原创动画，自审后交付视频和工程。",
+          "先为这支视频设计故事线和逐镜头方案，暂不生成素材或渲染。",
+          "审查这支视频的构图、节奏、可读性和音画同步，按时间点列出需要修改的地方。"
+        ]
+      }
+    }
+  },
+  "author": {
+    "name": "antianqi",
+    "url": "https://github.com/antianqi"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/antianqi/filmcraft",
+  "repository": "https://github.com/antianqi/filmcraft"
+}

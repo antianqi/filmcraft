@@ -1,0 +1,7 @@
+interface:
+  display_name: "视频创作"
+  short_description: "设计故事与分镜，制作真实素材和原创动画结合的视频"
+  default_prompt: "使用 $filmcraft-video，根据我的素材制作视频，沿用已确定的范围并在交付前完成自审。"
+  brand_color: "#F56811"
+policy:
+  allow_implicit_invocation: true

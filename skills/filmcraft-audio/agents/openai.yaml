@@ -1,0 +1,7 @@
+interface:
+  display_name: "音乐与音效"
+  short_description: "选配乐、制作动作音效与混音，校准成片音画同步"
+  default_prompt: "使用 $filmcraft-audio，为当前视频处理配乐和音效，保留画面并说明音源、同步和试听范围。"
+  brand_color: "#F56811"
+policy:
+  allow_implicit_invocation: true

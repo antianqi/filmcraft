@@ -1,0 +1,7 @@
+interface:
+  display_name: "成片审查"
+  short_description: "按秒和帧定位画面、节奏、可读性与音画问题"
+  default_prompt: "使用 $filmcraft-review，独立检查当前成片，提供带时间点的证据并区分必须修复、建议与未验证。"
+  brand_color: "#F56811"
+policy:
+  allow_implicit_invocation: true
